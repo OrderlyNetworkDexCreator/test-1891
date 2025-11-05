@@ -30,8 +30,8 @@
   --oui-color-warning-darken: 204 150 35;
   --oui-color-warning-contrast: 255 255 255;
 
-  --oui-color-fill: 28 32 40;
-  --oui-color-fill-active: 40 48 60;
+  --oui-color-fill: 224 224 224;
+  --oui-color-fill-active: 255 255 255;
 
   --oui-color-base-1: 205 212 222;
   --oui-color-base-2: 178 188 204;
@@ -98,9 +98,3 @@ html, body {
   font-family: 'Manrope', sans-serif !important;
   font-size: 16px !important;
 }
-
-/* tip: use modern color-mix for opacity, e.g.
-   border-color: rgb(var(--oui-color-line) / 0.12);
-   panel: background: rgb(var(--oui-color-base-8));
-*/
-
