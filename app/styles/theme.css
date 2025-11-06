@@ -3,13 +3,13 @@
   --oui-font-size-base: 16px;
 
   /* colors */
-  --oui-color-primary: 0 132 255;
-  --oui-color-primary-light: 255 255 255;
-  --oui-color-primary-darken: 0 123 255;
+  --oui-color-primary: 65 105 225;       /* RoyalBlue #4169E1 */
+  --oui-color-primary-light: 143 177 255; /* ~#8FB1FF */
+  --oui-color-primary-darken: 45 82 196;  /* ~#2D52C4 */
   --oui-color-primary-contrast: 255 255 255;
 
-  --oui-color-link: 71 20 255;
-  --oui-color-link-light: 88 0 133;
+  --oui-color-link: 37 99 235;           /* blue-600 */
+  --oui-color-link-light: 96 165 250;    /* blue-400 */
 
   --oui-color-secondary: 255 255 255;
   --oui-color-tertiary: 218 218 218;
@@ -30,34 +30,34 @@
   --oui-color-warning-darken: 255 152 0;
   --oui-color-warning-contrast: 255 255 255;
 
-  --oui-color-fill: 0 0 0;
-  --oui-color-fill-active: 0 0 0;
+  --oui-color-fill: 36 32 47;
+  --oui-color-fill-active: 40 46 58;
 
   --oui-color-base-1: 93 83 123;
-  --oui-color-base-2: 198 179 255;
-  --oui-color-base-3: 245 229 255;
-  --oui-color-base-4: 118 77 255;
-  --oui-color-base-5: 255 255 255;
-  --oui-color-base-6: 255 255 255;
-  --oui-color-base-7: 204 214 255;
-  --oui-color-base-8: 204 207 255;
-  --oui-color-base-9: 144 213 255;
-  --oui-color-base-10: 255 255 255;
+  --oui-color-base-2: 81 72 107;
+  --oui-color-base-3: 68 61 69;
+  --oui-color-base-4: 57 52 74;
+  --oui-color-base-5: 51 46 66;
+  --oui-color-base-6: 43 38 56;
+  --oui-color-base-7: 36 32 47;
+  --oui-color-base-8: 29 26 38;
+  --oui-color-base-9: 22 20 28;
+  --oui-color-base-10: 14 13 18;
 
-  --oui-color-base-foreground: 63 56 67;
-  --oui-color-line: 0 0 0;
+  --oui-color-base-foreground: 255 255 255;
+  --oui-color-line: 255 255 255;
 
-  --oui-color-trading-loss: 255 0 72;
+  --oui-color-trading-loss: 245 97 139;
   --oui-color-trading-loss-contrast: 255 255 255;
-  --oui-color-trading-profit: 0 255 170;
+  --oui-color-trading-profit: 41 233 169;
   --oui-color-trading-profit-contrast: 255 255 255;
 
-  /* gradients */
-  --oui-gradient-primary-start: 40 0 97;
-  --oui-gradient-primary-end: 189 107 237;
+  /* gradients (royal blue replacements) */
+  --oui-gradient-primary-start: 30 58 138;   /* deep blue */
+  --oui-gradient-primary-end: 65 105 225;    /* RoyalBlue */
 
-  --oui-gradient-secondary-start: 81 42 121;
-  --oui-gradient-secondary-end: 176 132 233;
+  --oui-gradient-secondary-start: 23 37 84;  /* navy-ish */
+  --oui-gradient-secondary-end: 59 130 246;  /* blue-500 */
 
   --oui-gradient-success-start: 1 83 68;
   --oui-gradient-success-end: 41 223 169;
@@ -65,8 +65,8 @@
   --oui-gradient-danger-start: 153 24 76;
   --oui-gradient-danger-end: 245 97 139;
 
-  --oui-gradient-brand-start: 231 219 249;
-  --oui-gradient-brand-end: 159 107 225;
+  --oui-gradient-brand-start: 219 234 254;   /* blue-100 tint */
+  --oui-gradient-brand-end: 37 99 235;       /* blue-600 */
   --oui-gradient-brand-stop-start: 6.62%;
   --oui-gradient-brand-stop-end: 86.5%;
   --oui-gradient-brand-angle: 17.44deg;
