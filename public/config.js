@@ -1,6 +1,7 @@
 window.__RUNTIME_CONFIG__ = {
   "VITE_ORDERLY_BROKER_ID": "demo",
   "VITE_ORDERLY_BROKER_NAME": "KKX",
+  "VITE_BROKER_EOA_ADDRESS": "0x696cdaca11bbb123915b6cacf253a5ddb6f88f40",
   "VITE_DISABLE_MAINNET": "false",
   "VITE_DISABLE_TESTNET": "false",
   "VITE_ORDERLY_MAINNET_CHAINS": "42161,10,8453,5000,1,56,1329,43114,900900900,2818,146,80094,1514,34443,98866,2741",
@@ -19,6 +20,7 @@ window.__RUNTIME_CONFIG__ = {
   "VITE_HAS_SECONDARY_LOGO": "true",
   "VITE_ENABLED_MENUS": "Trading,Markets,Portfolio,Rewards",
   "VITE_CUSTOM_MENUS": "",
+  "VITE_ENABLE_SERVICE_DISCLAIMER_DIALOG": "false",
   "VITE_ENABLE_CAMPAIGNS": "true",
   "VITE_TELEGRAM_URL": "",
   "VITE_DISCORD_URL": "",
@@ -34,5 +36,6 @@ window.__RUNTIME_CONFIG__ = {
   "VITE_AVAILABLE_LANGUAGES": "en,zh,ja,es,ko,vi,de,fr,ru,id,tr,it,pt,uk,pl,nl",
   "VITE_USE_CUSTOM_PNL_POSTERS": "false",
   "VITE_CUSTOM_PNL_POSTER_COUNT": "0",
-  "VITE_TRADING_VIEW_COLOR_CONFIG": "{\"upColor\":\"#00a87e\",\"downColor\":\"#F7525F\",\"pnlUpColor\":\"#00b88a\",\"pnlDownColor\":\"#F7525F\",\"chartBG\":\"#000000\"}"
+  "VITE_TRADING_VIEW_COLOR_CONFIG": "{\"upColor\":\"#00a87e\",\"downColor\":\"#F7525F\",\"pnlUpColor\":\"#00b88a\",\"pnlDownColor\":\"#F7525F\",\"chartBG\":\"#000000\"}",
+  "VITE_ANALYTICS_SCRIPT": ""
 };
